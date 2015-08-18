@@ -1,14 +1,14 @@
-package com.atbmarket.myfirstapp;
+package com.atbmarket.appcompat;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 
-public class MyActivity extends Activity {
+public class MyActivity extends AppCompatActivity {
 
     public static final String EXTRA_MESSAGE = "com.atbmarket.myfirstapp.MESSAGE";
 
@@ -16,7 +16,7 @@ public class MyActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my);
-        //getActionBar().setTitle("");
+        //getSupportActionBar().setTitle("");
     }
 
     @Override

@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <!-- Support library compatibility -->
+        <item name="background">@color/actionbar_background</item>
+        <item name="goIcon">@drawable/ic_search_gray</item>
+    </style>
+
+    <color name="actionbar_background">#ffd9a000</color>
+
+</resources>
